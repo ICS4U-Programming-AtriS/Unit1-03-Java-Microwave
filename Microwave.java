@@ -66,6 +66,7 @@ public final class Microwave {
     System.out.print("Enter your food choice: ");
     // Initialize Scanner for user input.
     Scanner scanner = new Scanner(System.in);
+    // Get user's food choice as a string
     String userFoodChoice = scanner.nextLine();
     // Convert user input to uppercase to match array values.
     userFoodChoice = userFoodChoice.toUpperCase();
